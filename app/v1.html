@@ -1,0 +1,51 @@
+<html>
+    <title>BrewCoffee46 Configuration Importer</title>
+    <head>
+        <style>
+            .center {
+                text-align: center;
+                width: 100%;
+            }
+            .container {
+                padding-top: 100px;
+            }
+            .arrow {
+                display: inline-block;
+                height: 150px;
+                background: #FF3B30;
+                width: 75px;
+            }
+            .arrow:before {
+                content: "";
+                border-top: 100px solid #FF3B30;
+                border-left: 100px solid transparent;
+                border-right: 100px solid transparent;
+                border-bottom: 100px solid transparent;
+                transform: rotateZ(180deg) translateY(100%) translateX(31%);
+                position: relative;
+                display: inline-block;
+            }
+            button {
+                background-color: #0E7AFE;
+                border: none;
+                color: white;
+                padding: 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                margin: 4px 2px;
+                cursor: pointer;
+                border-radius: 8px
+            }         
+        </style>
+    </head>
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="arrow"></div>
+        </div>
+        <p>設定を読み込むためには、画面上の<button>開く</button>ボタンを押してください。</p>
+        <p>Click <button>OPEN</button> button on above to import the configuration.</p>
+    </div>
+</body>    
+</html>
